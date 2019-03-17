@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GitSectionedRecyclerView</string>
+    <string name="restaurant_dish_name">Dish Name</string>
+    <string name="dummy_dish_price">$20</string>
+    <string name="veg_only">veg_icon</string>
+    <string name="description_text">Some Random Description About Food Item</string>
+    <string name="show_button">category show</string>
+    <string name="restaurant_food_category">Category</string>
+    <string name="section_recycler_view">Sectioned RecyclerView</string>
 </resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/restaurant_dish_relative_layout">
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/restaurant_dish_name"
+            android:layout_toEndOf="@id/food_image"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/food_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/veg_only" />
+        <TextView
+            android:id="@+id/menu_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_toEndOf="@id/food_image"
+            android:layout_below="@id/food_name"
+            android:text="@string/description_text"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+             />
+
+        <TextView
+            android:id="@+id/menu_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:text="@string/dummy_dish_price"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#1FFFFFFF" />
+
+</android.support.design.widget.CoordinatorLayout>
