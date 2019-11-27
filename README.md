@@ -1,4 +1,4 @@
-# GitSectionedRecyclerView
+## SectionedRecyclerView
 
 Sectioned RecylerView without any library.
 
